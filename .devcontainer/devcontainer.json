@@ -1,0 +1,17 @@
+{
+  "name": "Odoo Dev Container",
+  "image": "odoo:17.0",
+  "service": "odoo",
+  "workspaceFolder": "/workspaces/custom",
+  "remoteUser": "odoo",
+  "shutdownAction": "stopCompose",
+  
+  // "forwardPorts": [8069],
+
+  "portsAttributes": {
+    "8069": {
+      "label": "Odoo",
+      "onAutoForward": "notify"
+    }
+  }
+}
