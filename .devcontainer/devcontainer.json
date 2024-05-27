@@ -3,7 +3,7 @@
   "image": "odoo:17.0",
   "service": "odoo",
   "workspaceFolder": "/mnt/extra-addons",
-  "remoteUser": "odoo",
+  "remoteUser": "root",
   
   // "forwardPorts": [8069],
 
