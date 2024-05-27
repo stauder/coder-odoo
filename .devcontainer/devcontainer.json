@@ -4,7 +4,11 @@
   "service": "odoo",
   "workspaceFolder": "/mnt/extra-addons",
   "remoteUser": "root",
-  
+  "containerEnv": {
+    "HOST": "db",
+    "USER": "odoo",
+    "PASSWORD": "odoo"
+  },
   // "forwardPorts": [8069],
 
   "portsAttributes": {
