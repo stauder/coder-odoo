@@ -2,7 +2,7 @@
   "name": "Odoo Dev Container",
   "image": "odoo:17.0",
   "service": "odoo",
-  "workspaceFolder": "/workspaces",
+  "workspaceFolder": "/mnt/extra-addons",
   "remoteUser": "odoo",
   "shutdownAction": "stopCompose",
   
