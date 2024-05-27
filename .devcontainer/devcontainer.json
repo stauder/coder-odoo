@@ -10,7 +10,7 @@
     "PASSWORD": "odoo"
   },
   // "forwardPorts": [8069],
-  "runArgs": [ "--network=my-custom-odoo-network" ],
+  "runArgs": [ "--network=my-custom-odoo-network", "--link db:db", "-t odoo" ],
   "portsAttributes": {
     "8069": {
       "label": "Odoo",
