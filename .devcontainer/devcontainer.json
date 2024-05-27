@@ -4,7 +4,6 @@
   "service": "odoo",
   "workspaceFolder": "/mnt/extra-addons",
   "remoteUser": "odoo",
-  "shutdownAction": "stopCompose",
   
   // "forwardPorts": [8069],
 
